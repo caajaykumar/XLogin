@@ -14,7 +14,7 @@ const Login = () => {
       return;
     }
 
-    // Check credentials
+    
     if (username === 'user' && password === 'password') {
       setMessage('Welcome, user!');
     } else {
