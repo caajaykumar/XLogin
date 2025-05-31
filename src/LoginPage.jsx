@@ -8,7 +8,6 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validation for empty fields
     if (username.trim() === '' || password.trim() === '') {
       setMessage('Both fields are required');
       return;
